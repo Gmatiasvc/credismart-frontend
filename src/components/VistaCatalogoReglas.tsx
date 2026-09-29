@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import type { ReglaCatalogo } from '../types/credito';
 import { obtenerCatalogoReglas } from '../services/api';
-import { BookOpen, Layers, ShieldCheck, Zap } from 'lucide-react';
+import { BookOpen, Layers,  Zap } from 'lucide-react';
 
 export const VistaCatalogoReglas: React.FC = () => {
   const [reglas, setReglas] = useState<ReglaCatalogo[]>([]);
