@@ -7,7 +7,6 @@ import type {
 } from "../types/credito";
 
 const CLAVE_STORAGE_URL = "credismart_ngrok_url";
-const CLAVE_STORAGE_BACKEND = "credismart_backend_url";
 
 export const obtenerUrlWebhook = (): string => {
   const url_guardada = localStorage.getItem(CLAVE_STORAGE_URL);
