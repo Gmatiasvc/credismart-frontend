@@ -31,8 +31,8 @@ export const FormularioCredito: React.FC<PropsFormulario> = ({ alEnviar, cargand
   const cargarEscenarioPrueba = (tipo: 'APROBADO' | 'ASTAR' | 'RIESGO_LLM') => {
     if (tipo === 'APROBADO') {
       setFormulario({
-        documento_identidad: '41223344',
-        nombres: 'Valeria Ramos',
+        documento_identidad: '60897401',
+        nombres: 'Valentina Pajares',
         edad: 34,
         ingresos_mensuales: 6000,
         deuda_actual: 900,
@@ -43,8 +43,8 @@ export const FormularioCredito: React.FC<PropsFormulario> = ({ alEnviar, cargand
       });
     } else if (tipo === 'ASTAR') {
       setFormulario({
-        documento_identidad: '74891234',
-        nombres: 'Matias Cardenas',
+        documento_identidad: '60529990',
+        nombres: 'Gerardo Venegas',
         edad: 26,
         ingresos_mensuales: 3200,
         deuda_actual: 1650,
@@ -55,8 +55,8 @@ export const FormularioCredito: React.FC<PropsFormulario> = ({ alEnviar, cargand
       });
     } else {
       setFormulario({
-        documento_identidad: '90881122',
-        nombres: 'Esteban Morales',
+        documento_identidad: '60881122',
+        nombres: 'Jordan Tacuri',
         edad: 22,
         ingresos_mensuales: 2400,
         deuda_actual: 400,
