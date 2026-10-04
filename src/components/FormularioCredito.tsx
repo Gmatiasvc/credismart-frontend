@@ -9,15 +9,15 @@ interface PropsFormulario {
 
 export const FormularioCredito: React.FC<PropsFormulario> = ({ alEnviar, cargando }) => {
   const [formulario, setFormulario] = useState<SolicitudEntrada>({
-    documento_identidad: '74891234',
-    nombres: 'Matias Cardenas',
-    edad: 25,
-    ingresos_mensuales: 3500,
-    deuda_actual: 1900,
-    monto_solicitado: 14000,
-    plazo_meses: 24,
-    score_crediticio: 690,
-    justificacion_cualitativa: 'Financiamiento para adquisición de licencias y servidores para expansión de software.'
+    documento_identidad: '60897401',
+    nombres: 'Valentina Pajares',
+    edad: 34,
+    ingresos_mensuales: 6000,
+    deuda_actual: 900,
+    monto_solicitado: 12000,
+    plazo_meses: 18,
+    score_crediticio: 770,
+    justificacion_cualitativa: 'Remodelación de oficina de constructora propio con cartera consolidada de clientes.'
   });
 
   const manejarCambio = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -39,7 +39,7 @@ export const FormularioCredito: React.FC<PropsFormulario> = ({ alEnviar, cargand
         monto_solicitado: 12000,
         plazo_meses: 18,
         score_crediticio: 770,
-        justificacion_cualitativa: 'Remodelación de consultorio odontológico propio con cartera consolidada de clientes.'
+        justificacion_cualitativa: 'Remodelación de oficina de constructora propio con cartera consolidada de clientes.'
       });
     } else if (tipo === 'ASTAR') {
       setFormulario({
