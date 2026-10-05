@@ -21,7 +21,7 @@ export const guardarUrlWebhook = (nueva_url: string): void => {
 export const obtenerUrlBackendDirecto = (): string => {
   return (
     localStorage.getItem("credismart_backend_url") ||
-    "https://font-lawyer-pensions-risks.trycloudflare.com"
+    "https://edited-apparently-molecular-isolation.trycloudflare.com"
   );
 };
 
